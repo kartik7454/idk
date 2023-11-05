@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-const WorkoutForm =()=>{
+const WorkoutForm =(props)=>{
    const [title,setTitle] = useState('')
    const [load,setLoad] = useState('')
    const [reps,setReps] = useState('')
@@ -27,6 +27,7 @@ const WorkoutForm =()=>{
         setLoad("")
         setReps("")
         setError(null)
+        props.handelrefresh()
         console.log("new workou added")
     }
    }
