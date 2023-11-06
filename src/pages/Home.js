@@ -45,6 +45,6 @@ fetchWorkouts()
         />
          </div>
     )
-}
+};
 
 export default Home
