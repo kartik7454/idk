@@ -21,4 +21,4 @@ return(
 )
 
 }
-export default WorkoutDetails
+export default WorkoutDetails;
