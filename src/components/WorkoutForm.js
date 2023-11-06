@@ -27,7 +27,7 @@ const WorkoutForm =()=>{
         setLoad("")
         setReps("")
         setError(null)
-        
+        props.handelrefresh()
         console.log("new workou added")
     }
    }
