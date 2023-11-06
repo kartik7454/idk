@@ -34,6 +34,7 @@ fetchWorkouts()
                 return(<WorkoutDetails 
                     key ={workout._id}
                     workout={workout}
+                    handelrefresh={handelrefresh}
                 />)
                     
 

@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-const WorkoutForm =()=>{
+const WorkoutForm =(props)=>{
    const [title,setTitle] = useState('')
    const [load,setLoad] = useState('')
    const [reps,setReps] = useState('')
